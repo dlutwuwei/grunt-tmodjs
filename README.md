@@ -1,5 +1,5 @@
 # grunt-tmodjs
-[![NPM](https://nodei.co/npm/grunt—tmodjs.png)](https://nodei.co/npm/grunt—tmodjs/)
+[![NPM](https://nodei.co/npm/grunt-tmodjs.png)](https://nodei.co/npm/grunt-tmodjs/)
 
 > grunt plugins for latest tmodjs
 
