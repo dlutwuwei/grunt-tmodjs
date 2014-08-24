@@ -1,0 +1,41 @@
+{
+  "name": "grunt-tmodjs",
+  "description": "grunt for latest tmodjs",
+  "version": "0.1.2",
+  "homepage": "https://github.com/dlutwuei/grunt-tmodjs",
+  "author": {
+    "name": "wuwei"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dlutwuwei/grunt-tmodjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dlutwuei/grunt-tmodjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dlutwuwei/grunt-tmodjs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+     "tmodjs":"~1.0.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin","tmodjs"
+  ]
+}
