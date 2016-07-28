@@ -26,11 +26,11 @@ module.exports = function(grunt) {
             syntax: this.options().syntax || "native",
             helpers: this.options().helpers,
             escape: this.options().escape,
-            compress: this.options().compress || true,
+            compress: this.options().compress || false,
             runtime: this.options().runtime || "template.js",
-            combo: this.options().combo || true,
-            minify: this.options().minify || true,
-            cache: this.options().cache || true
+            combo: this.options().combo || false,
+            minify: this.options().minify || false,
+            cache: this.options().cache || false
         };
 
         // Iterate over all specified file groups.
